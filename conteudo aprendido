@@ -1,0 +1,33 @@
+hierarquia de Chonsky (ordenada por capacidade computacional)
+
+1. linguagens regulares(expressões regulares)<---lexica
+  BNF s/ recursão
+2. gramaticas livres de contexto <--- sintática
+
+//  letras latinas para representar sequencias não terminais
+3.gramatica com contexto
+
+4. maquina de turing
+alfabeto conjunto de finito de simbolos
+
+regra de produção
+
+valor : ARRAY
+      | OBJETO <-- não terminais ->extensível
+      | "true" <--- terminais ->
+      | "false"
+      | ...
+ARRAY : "[" "]"
+      | "[" valor ("," valor)* "]"
+
+
+EBNF (extende c/ operadores do tipo *, + , ?)
+
+ARRAY : "[" "]"
+      | "[" ITENS "]"
+ITENS : VALOR
+      | VALOR "," ITENS
+
+
+regex????
+gramaticas livres de contexto são gramaticas que podem ser expressas dessa forma

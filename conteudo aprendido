@@ -31,3 +31,12 @@ ITENS : VALOR
 
 regex????
 gramaticas livres de contexto são gramaticas que podem ser expressas dessa forma
+---------------------------------
+
+3 operações
+
+1 concatenação
+
+2 alternativa
+
+3 produto estrela
